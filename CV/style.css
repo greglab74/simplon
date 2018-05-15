@@ -1,1 +1,39 @@
+@font-face
+{
 
+    font-weight: normal;
+    font-style: normal;
+}
+/* Eléments principaux de la page */
+
+body {
+	background:url('https://images.designtrends.com/wp-content/uploads/2015/11/30143120/Ash-Color-Plain-Wallpaper-Download1.jpg');
+    background-size: cover;
+
+
+}
+
+#bloc_page
+{
+    width: 100%;
+    margin: auto;
+}
+
+header {
+  text-align: center;
+}
+h2 {
+	color:rgb(0, 96, 128);
+	border:5px rgb(0, 96, 128) solid;
+	box-shadow: 6px 6px 6px rgb(0, 96, 128);
+	width: 70%;
+}
+
+h1 {
+	text-align:center;
+	font-size:xx-large;
+}
+
+header,#coordonnees,#experience,#formation,#langues {
+  margin-bottom: 60px;
+}
